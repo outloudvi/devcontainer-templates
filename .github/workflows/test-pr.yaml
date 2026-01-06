@@ -11,7 +11,9 @@ jobs:
     continue-on-error: true
     strategy:
       matrix:
-        templates: ${{ fromJSON(needs.detect-changes.outputs.templates) }}
+        templates:
+          - arch-linux
+          - debian-gemini
     steps:
       - uses: actions/checkout@v3
 
