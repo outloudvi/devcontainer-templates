@@ -1,4 +1,6 @@
 {
-	"name": "Arch Linux",
-	"image": "docker.io/archlinux:${templateOption:imageVariant}"
+    "name": "Arch Linux",
+    "build": {
+        "dockerfile": "Dockerfile"
+    }
 }
