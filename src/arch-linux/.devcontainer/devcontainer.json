@@ -1,0 +1,4 @@
+{
+	"name": "Arch Linux",
+	"image": "docker.io/archlinux:${templateOption:imageVariant}"
+}

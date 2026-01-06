@@ -1,0 +1,23 @@
+{
+    "id": "arch-linux",
+    "version": "0.1.0",
+    "name": "Arch Linux",
+    "description": "Simple Arch Linux container with base-devel packages by default.",
+    "documentationURL": "https://github.com/outloudvi/devcontainer-templates/tree/main/src/arch-linux",
+    "licenseURL": "https://github.com/outloudvi/devcontainer-templates/blob/main/LICENSE",
+    "options": {
+        "imageVariant": {
+            "type": "string",
+            "description": "Image variant:",
+            "proposals": [
+                "base",
+                "base-devel",
+                "multilib-devel"
+            ],
+            "default": "base-devel"
+        }
+    },
+    "platforms": [
+        "Any"
+    ]
+}
